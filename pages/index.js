@@ -2,52 +2,40 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+
 
 export default function Home() {
-  return (
-<div className="inline-flex flex-col space-y-5 items-center justify-start py-16 bg-white" style="width: 1440px; height: 5144px;">
-    <p className="text-4xl text-center">sashiMinet</p>
-    <p className="text-4xl text-center">About</p>
-    <p className="text-4xl text-center">Works</p>
-    <p className="text-4xl text-center">Blog</p>
-    <p className="text-4xl text-center">Contact</p>
-    <div className="bg-gray-200" style="width: 759px; height: 590px;"/>
-    <p className="text-6xl font-black text-center">SashiMinet</p>
-    <p className="text-xl text-center">web design and bussiness</p>
-    <p className="text-xl" style="width: 463px;">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
-    <p className="text-4xl">About</p>
-    <p className="text-4xl">About</p>
-    <div className="rounded-2xl border-black" style="width: 444px; height: 1px;">
-        <div className="border-black" style="width: 444px; height: 1px;"/>
+return (
+<div style={{width: 1440, height: 3995, backgroundColor: 'white', position: 'relative',}}>
+    <div style={{width: 1440, height: 4015, left: 0, top: -20, position: 'absolute', backgroundColor: 'white', position: 'relative',}}>
+        <p style={{width: 615, height: 127, left: 412, top: 464, position: 'absolute', fontSize: 64, lineHeight: '100%', textAlign: 'center', color: 'black',}}>sashiMinet</p>
+        <p style={{width: 615, height: 51, left: 412, top: 637, position: 'absolute', fontSize: 24, lineHeight: '100%', textAlign: 'center', color: 'black',}}>WE CONNECT THE WORLD</p>
+        <div style={{width: 1440, height: 713, left: 0, top: 3302, position: 'absolute', backgroundColor: 'rgba(22.31, 22.22, 22.22, 1)',}}/>
+        <p style={{left: 209, top: 1200, position: 'absolute', fontSize: 40, lineHeight: '100%', color: 'black',}}>welcome!</p>
+        <div style={{width: 444, height: 1, left: 498, top: 1045, position: 'absolute',}}/>
+        <p style={{left: 619, top: 3881, position: 'absolute', fontSize: 36, fontWeight: '900', lineHeight: '100%', color: 'white',}}>sashiMinet</p>
+        <p style={{left: 525, top: 3937, position: 'absolute', fontSize: 20, fontWeight: '900', lineHeight: '100%', color: 'white',}}>@2021 sashiMinet. All rights reserved.</p>
+        <div style={{width: 374, height: 513, left: 770, top: 1229, position: 'absolute', backgroundColor: 'rgba(196, 196, 196, 1)',}}/>
+        <div style={{width: 326, height: 399, left: 907, top: 1161, position: 'absolute', backgroundColor: 'rgba(196, 196, 196, 1)',}}/>
+        <p style={{width: 343, left: 139, top: 1335, position: 'absolute', fontSize: 40, lineHeight: '100%', textAlign: 'center', color: 'black',}}>texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext</p>
+        <p style={{width: 651, left: 631, top: 2965, position: 'absolute', fontSize: 40, lineHeight: '100%', textAlign: 'center', color: 'black',}}>texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext</p>
+        <p style={{width: 651, left: 394, top: 3494, position: 'absolute', fontSize: 40, lineHeight: '100%', textAlign: 'center', color: 'white',}}>texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext</p>
+        <div style={{width: 553, height: 557, left: 443, top: 1986, position: 'absolute', backgroundColor: 'rgba(196, 196, 196, 1)',}}/>
+        <div style={{width: 438, height: 231, left: 501, top: 2155, position: 'absolute', backgroundColor: 'white',}}/>
+        <p style={{left: 642, top: 2203, position: 'absolute', fontSize: 40, lineHeight: '100%', color: 'black',}}>Service</p>
+        <div style={{width: 256, height: 1, left: 592, top: 2303, position: 'absolute',}}/>
+        <div style={{width: 414, height: 444, left: 136, top: 2734, position: 'absolute', backgroundColor: 'rgba(196, 196, 196, 1)',}}/>
+        <p style={{left: 894, top: 2734, position: 'absolute', fontSize: 40, lineHeight: '100%', color: 'black',}}>owner</p>
+        <div style={{width: 153, height: 1, left: 880, top: 2926, position: 'absolute',}}/>
+        <p style={{width: 336, height: 97, left: 789, top: 2809, position: 'absolute', fontSize: 40, lineHeight: '100%', color: 'black',}}>Keisue Honda</p>
+        <div style={{width: 564, height: 71, left: 438, top: 3687, position: 'absolute', backgroundColor: 'white',}}/>
+        <div style={{width: 81, height: 71, left: 921, top: 3687, position: 'absolute', backgroundColor: 'rgba(196, 196, 196, 1)',}}/>
+        <p style={{left: 469, top: 3708, position: 'absolute', fontSize: 24, lineHeight: '100%', color: 'rgba(145.56, 145.56, 145.56, 1)',}}>Your mail address</p>
+        <p style={{left: 655, top: 3405, position: 'absolute', fontSize: 32, lineHeight: '100%', color: 'white',}}>contact</p>
+        <img style={{width: 162, height: 47, left: 639, top: 3854, position: 'absolute',}} src="https://via.placeholder.com/162x47"/>
     </div>
-    <div className="flex flex-col space-y-8 items-end justify-end pl-96 pr-28 pt-32 pb-16 bg-gray-100" style="width: 1440px; height: 437px;">
-        <p className="text-4xl text-center" style="width: 615px; height: 51px;">150万円も払える学生はいない</p>
-        <p className="text-2xl text-center" style="width: 615px; height: 147px;">一般的なweb制作会社では最低価格は150万円もします。これで夢を諦めてしまう学生は大勢います。そんな学生を私たちは制作費3万円でご支援します。</p>
-    </div>
-    <p className="text-4xl">why</p>
-    <div className="border-black" style="width: 444px; height: 1px;"/>
-    <div className="flex flex-col space-y-9 items-end justify-end pl-96 pr-28 pt-32 pb-20 bg-gray-100" style="width: 1440px; height: 437px;">
-        <p className="text-4xl text-center" style="width: 615px; height: 51px;">どうして3万円で作成できるのか</p>
-        <p className="text-2xl text-center" style="width: 615px; height: 140px;">多くのweb制作会社では中ぬきが行われています。私たちは中ぬきを一切行わずダイレクトにお客様とエンジニアを繋げます。だから、我々は格安で作成することができるのです。クオリティが落ちることは一切ございません。</p>
-    </div>
-    <p className="text-2xl text-center" style="width: 615px; height: 117px;">安心の後払い制度、(不安ですよね。お客様が納得してからお支払いいただきます。)<br/></p>
-    <p className="text-4xl">私たちについて</p>
-    <div className="border-black" style="width: 444px; height: 1px;"/>
-    <div className="w-1/5 h-80 bg-gray-300 rounded-tl-3xl rounded-tr-3xl rounded-bl-3xl rounded-br-full"/>
-    <div className="w-1/5 h-80 bg-gray-300 rounded-tl-3xl rounded-tr-3xl rounded-bl-3xl rounded-br-full"/>
-    <p className="w-1/5 h-14 text-5xl font-w4 text-center">中田敦彦</p>
-    <p className="w-1/5 h-14 text-5xl font-w4 text-center">中田敦彦</p>
-    <p className="w-80 text-4xl font-w4 text-center text-gray-700">テキストテキストテキストテキストテキストテキスト</p>
-    <p className="w-80 text-4xl font-w4 text-center text-gray-700">テキストテキストテキストテキストテキストテキスト</p>
-    <div className="flex flex-col space-y-5 items-center justify-end px-80 pt-80 pb-60 bg-gray-100" style="width: 1440px; height: 829px;">
-        <p className="text-4xl text-center" style="width: 757px; height: 51px;">私たちからあなたへ、あなたから人へ。</p>
-        <p className="text-2xl text-center" style="width: 615px; height: 51px;">まずは、お話を聞かせてください。<br/>あなたにご支援をさせてください。</p>
-        <div className="w-80 h-14 bg-gray-800 rounded-3xl"/>
-        <p className="text-xl font-black text-white">コンタクト</p>
-    </div>
-    <p className="text-4xl font-black">sashiMinet</p>
-    <p className="text-xl font-black">@2021 sashiMinet. All rights reserved.</p>
+    <div style={{width: 553, height: 557, left: 1016, top: 1966, position: 'absolute', backgroundColor: 'rgba(196, 196, 196, 1)',}}/>
+    <div style={{width: 553, height: 557, left: -141, top: 1966, position: 'absolute', backgroundColor: 'rgba(196, 196, 196, 1)',}}/>
 </div>
-  )
+)
 }
