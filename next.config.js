@@ -4,3 +4,12 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
+module.exports = {
+  theme: {
+    extend: {
+      // ...
+    },
+  },
+  plugins: [],
+}
